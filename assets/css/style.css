@@ -23,8 +23,6 @@ Author URI: http://bootstrapthemes.co
 ==========================================*/
 
 
-
-
 .area{
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
     width: 100%;
@@ -1062,13 +1060,45 @@ textarea::-ms-input-placeholder{
 /*
 Nav Menu style
 ==================*/
+.navbar-center a{
+  padding: 15px;
+}
+.navbar-center a {
+  padding: 15px;
+	position: relative;
+  -webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
 
+.navbar-center a:after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	background-color: tomato;
+	width: 0;
+	left: 50%;
+	bottom: 0;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  	transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.navbar-center a:hover {
+	color: tomato;
+}
+
+.navbar-center a:hover:after {
+	width: 100%;
+}
 .navbar-brand {
     padding: 30px 15px;
 }
 
 nav.navbar.bootsnav.no-background.white ul.nav > li > a{
         color: #e3b14e;
+        padding: 20px;
 }
 nav.navbar.bootsnav.no-background.white .attr-nav > ul > li > a{
   color: #e3b14e;
