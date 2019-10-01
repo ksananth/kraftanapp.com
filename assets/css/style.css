@@ -897,7 +897,6 @@ textarea::-ms-input-placeholder{
 }
 /*heading title all area*/
 .head_title{
-    padding-bottom: 7.143rem;
     overflow: hidden;
 }
 .head_title h2{
@@ -917,7 +916,7 @@ textarea::-ms-input-placeholder{
 
 /*Preloader*/
 #loading{
-    background-color: #fc6a42;
+    background-color: #e3b14e;
     height: 100%;
     width: 100%;
     position: absolute;
