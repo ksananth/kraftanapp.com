@@ -48,8 +48,6 @@ button:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-  background: rgba(132,106,221,0.9);
 }
 
 .wrap-contact100 {
@@ -122,7 +120,7 @@ textarea.input100 {
 
 .input100 {
   display: block;
-  width: 80%;
+  width: 100%;
   background: #e6e6e6;
   font-family: Montserrat-Bold;
   font-size: 15px;
@@ -143,7 +141,7 @@ textarea.input100 {
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color: rgba(132,106,221, 0.5);
+  color: rgba(227,178,79, 0.5);
 }
 
 .input100:focus + .focus-input100 {
@@ -190,7 +188,7 @@ textarea.input100 {
 }
 
 .input100:focus + .focus-input100 + .symbol-input100 {
-  color: #846add;
+  color: #e3b24f;
   padding-left: 22px;
 }
 
@@ -212,7 +210,7 @@ textarea.input100 {
   width: 100%;
   height: 50px;
   border-radius: 25px;
-  background: #846add;
+  background: #e3b24f;
   font-family: Montserrat-Bold;
   font-size: 15px;
   line-height: 1.5;
